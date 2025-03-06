@@ -1,0 +1,21 @@
+Descripcion_Vars
+
+dteday - Dia
+season - Temporada del año. (1: primavera, 2: verano, 3: otoño, 4: invierno)
+yr - Año (0: 2011, 1:2012)
+mnth - Mes ( 1 al 12)
+holiday - Si se celebra alguna festividad ese dia
+weekday - Que dia de la semana es
+workingday - Dia laboral, si no es fin de semana, o festividad, es un 1. Si no, es un 0
+weathersit - Clima
+	1: Despejado, Pocas nubes, Parcialmente nublado, Parcialmente nublado
+	2: Niebla + Nublado, Niebla + Nubes dispersas, Niebla + Pocas nubes, Niebla
+	3: Nieve ligera, Lluvia ligera + Tormenta eléctrica + Nubes dispersas, Lluvia ligera + Nubes dispersas
+	4: Lluvia intensa + Granizo + Tormenta eléctrica + Niebla, Nieve + Niebla
+temp - Temperatura (°C). Ya normalizada, con los valores divididos a 41
+atemp - Sensacion térmica (°C). Normalizada con los valores divididos a 50
+hum - Humeadad. Normalizada con los valores divididos a 100
+windspeed - Velocidad del aire. Normalizada con los valores divididos a 67
+casual - Numero de Usuarios Casuales. 
+registered - numero de Usuarios Registrados
+cnt - numero de bicicletas rentadas incluyendo a usuarios casuales, y registrados
